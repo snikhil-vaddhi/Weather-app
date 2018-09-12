@@ -42,6 +42,7 @@ async function getWeather(location) {
 
     if (!geoData.results) throw new Error("Location not found");
 
+    // destructuring the results
     const { latitude, longitude, timezone, name, country_code } =
       geoData.results.at(0);
     console.log(`${name} ${convertToFlag(country_code)}`);
