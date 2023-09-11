@@ -30,7 +30,6 @@ function formatDay(dateStr) {
   }).format(new Date(dateStr));
 }
 
-// fetch request to get the data
 async function getWeather(location) {
   try {
     // 1) Getting location (geocoding)
