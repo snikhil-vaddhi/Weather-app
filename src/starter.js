@@ -10,7 +10,7 @@ function getWeatherIcon(wmoCode) {
     [[53, 55, 63, 65, 57, 67, 81, 82], "🌧"], // for raining
     [[71, 73, 75, 77, 85, 86], "🌨"], //for heavy rain
     [[95], "🌩"], //for thunder
-    [[96, 99], "⛈"],
+    [[96, 99], "⛈"], //for thunder storm
   ]);
   const arr = [...icons.keys()].find((key) => key.includes(wmoCode));
   if (!arr) return "NOT FOUND";
