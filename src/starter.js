@@ -4,7 +4,7 @@ function getWeatherIcon(wmoCode) {
     [[0], "☀️"], //for sunny
     [[1], "🌤"], //for partially cloudy
     [[2], "⛅️"], //for partial sunny
-    [[3], "☁️"],
+    [[3], "☁️"], //for cloudy
     [[45, 48], "🌫"],
     [[51, 56, 61, 66, 80], "🌦"],
     [[53, 55, 63, 65, 57, 67, 81, 82], "🌧"],
