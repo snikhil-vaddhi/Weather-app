@@ -3,7 +3,7 @@ function getWeatherIcon(wmoCode) {
   const icons = new Map([
     [[0], "☀️"], //for sunny
     [[1], "🌤"], //for partially cloudy
-    [[2], "⛅️"],
+    [[2], "⛅️"], //for partial sunny
     [[3], "☁️"],
     [[45, 48], "🌫"],
     [[51, 56, 61, 66, 80], "🌦"],
