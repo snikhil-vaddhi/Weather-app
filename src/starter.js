@@ -1,4 +1,5 @@
 function getWeatherIcon(wmoCode) {
+  // hard coded data for emojis
   const icons = new Map([
     [[0], "☀️"],
     [[1], "🌤"],
