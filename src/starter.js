@@ -45,7 +45,6 @@ async function getWeather(location) {
       geoData.results.at(0);
     console.log(`${name} ${convertToFlag(country_code)}`);
 
-    // 2) Getting actual weather
     const weatherRes = await fetch(
       `https://api.open-meteo.com/v1/forecast?latitude=${latitude}&longitude=${longitude}&timezone=${timezone}&daily=weathercode,temperature_2m_max,temperature_2m_min`
     );
