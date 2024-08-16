@@ -29,7 +29,7 @@ function formatDay(dateStr) {
     weekday: "short",
   }).format(new Date(dateStr));
 }
-
+// get the fetch request
 async function getWeather(location) {
   try {
     // 1) Getting location (geocoding)
